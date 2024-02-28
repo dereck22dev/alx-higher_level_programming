@@ -28,4 +28,3 @@ integers/floats")
     if div == 0:
         raise ZeroDivisionError("division by zero")
     return [[round(i / div, 2) for i in row] for row in matrix]
-
